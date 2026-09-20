@@ -1,20 +1,32 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
 
 <head>
-    
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="generator" content="Gridea Pro 1.3.0-beta.2">
-<title></title>
-<link rel="shortcut icon" href="/favicon.ico?v=1789948682">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title=" - Atom Feed" href="/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Gridea Pro 1.3.0-beta.2">
+  <title>Archive | Gridea Pro</title>
 
+  
 
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
 
-    <meta name="description" content="Welcome to Gridea Pro" />
+  
+  <link rel="stylesheet" href="/styles/main.css">
+
+  
+  <link rel="alternate" type="application/rss+xml" title="Gridea Pro" href="/feed.xml">
+
+  
+  
+
+  
+  
 <meta name="description" content="Welcome to Gridea Pro">
 <link rel="canonical" href="https://yunwuee.github.io/archives/">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Gridea Pro","url":"https://yunwuee.github.io","description":"Welcome to Gridea Pro","potentialAction":{"@type":"SearchAction","query-input":"required name=search_term_string","target":"https://yunwuee.github.io/search?q={search_term_string}"}}</script>
@@ -32,136 +44,152 @@
 </head>
 
 <body>
-    <div class="main">
-        <div class="main-content">
-            
-<div class="site-header">
-    <a href="/">
-        <img class="avatar" src="/images/avatar.png?v=1789948682" alt="">
+  <header class="site-header">
+  <div class="container">
+    <a href="https://yunwuee.github.io" class="site-logo">
+      
+      <img src="/images/avatar.png" alt="Gridea Pro" class="site-avatar">
+      
+      <span class="site-name">Gridea Pro</span>
     </a>
-    <h1 class="site-title">
-        Gridea Pro
-    </h1>
-    <p class="site-description">
-        Welcome to Gridea Pro
-    </p>
-    <div class="menu-container">
-        
-        
-        <a href="/" class="menu">
-            首页
-        </a>
-        
-        
-        
-        <a href="/post" class="menu">
-            博客
-        </a>
-        
-        
-        
-        <a href="/memos" class="menu">
-            闪念
-        </a>
-        
-        
-        
-        <a href="/archives" class="menu">
-            归档
-        </a>
-        
-        
-        
-        <a href="/tags" class="menu">
-            标签
-        </a>
-        
-        
-        
-        <a href="/links" class="menu">
-            友链
-        </a>
-        
-        
-        
-        <a href="/post/about" class="menu">
-            关于
-        </a>
-        
-        
+
+    <nav class="nav-links">
+      
+      
+      <a href="/" >首页</a>
+      
+      <a href="/post" >博客</a>
+      
+      <a href="/memos" >闪念</a>
+      
+      <a href="/archives" >归档</a>
+      
+      <a href="/tags" >标签</a>
+      
+      <a href="/links" >友链</a>
+      
+      <a href="/post/about" >关于</a>
+      
+
+      
+      
+
+      
+
+      
+      
+    </nav>
+
+    
+    <button class="hamburger" id="hamburgerBtn" onclick="toggleMobileMenu()" aria-label="菜单">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+
+  
+  <div class="mobile-nav" id="mobileNav">
+    
+    <a href="/">首页</a>
+    
+    <a href="/post">博客</a>
+    
+    <a href="/memos">闪念</a>
+    
+    <a href="/archives">归档</a>
+    
+    <a href="/tags">标签</a>
+    
+    <a href="/links">友链</a>
+    
+    <a href="/post/about">关于</a>
+    
+    
+    
+    
+  </div>
+</header>
+
+<script>
+  function toggleMobileMenu() {
+    var menu = document.getElementById('mobileNav');
+    var btn = document.getElementById('hamburgerBtn');
+    menu.classList.toggle('open');
+    btn.classList.toggle('active');
+  }
+</script>
+
+  <main class="site-main">
+    
+<section class="archive-section">
+  <div class="page-header">
+    <h1 class="page-title">Archive</h1>
+    <p class="page-description">5 posts in total</p>
+  </div>
+
+  <div class="archive-list">
+    
+    <a href="/post/hello-gridea-pro/" class="archive-item">
+      <div class="archive-item-main">
+        <h3 class="archive-item-title">念念不忘，必有回响 —— Gridea Pro，我们回来了</h3>
+      </div>
+      <time class="archive-item-date">2026-05-09</time>
+    </a>
+    
+    <a href="/post/quick-start/" class="archive-item">
+      <div class="archive-item-main">
+        <h3 class="archive-item-title">Gridea Pro 完全上手指南 —— 从写作到发布，一篇搞定</h3>
+      </div>
+      <time class="archive-item-date">2026-05-09</time>
+    </a>
+    
+    <a href="/post/why-we-write/" class="archive-item">
+      <div class="archive-item-main">
+        <h3 class="archive-item-title">都 2026 年了，我们为什么还要写博客</h3>
+      </div>
+      <time class="archive-item-date">2026-05-09</time>
+    </a>
+    
+    <a href="/post/indie-blog-is-not-dead/" class="archive-item">
+      <div class="archive-item-main">
+        <h3 class="archive-item-title">独立博客没有死，正在死的是平庸的博客</h3>
+      </div>
+      <time class="archive-item-date">2026-05-09</time>
+    </a>
+    
+    <a href="/post/why-i-revived-gridea/" class="archive-item">
+      <div class="archive-item-main">
+        <h3 class="archive-item-title">我为什么复活了 Gridea —— 每个想写点什么的人，都值得一个更简单的开始</h3>
+      </div>
+      <time class="archive-item-date">2026-05-09</time>
+    </a>
+    
+  </div>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+  <div class="container">
+    <div class="footer-copyright">
+      &copy; 2026 Gridea Pro. All rights reserved.
     </div>
-    <div class="social-container">
-        
-        
-        
-        
-        
+    <div class="footer-powered">
+      Powered by <a href="https://gridea.pro" target="_blank" rel="noopener">Gridea Pro</a>
     </div>
-</div>
+  </div>
+</footer>
 
+  
+  
 
-            
-<div class="archives-container">
-    
-    <h2 class="year">2026</h2>
-    
-    <a href="/post/hello-gridea-pro/" class="post">
-        <h2 class="post-title">
-            念念不忘，必有回响 —— Gridea Pro，我们回来了
-        </h2>
-        <div class="time">2026-05-09</div>
-    </a>
-    
-    <a href="/post/quick-start/" class="post">
-        <h2 class="post-title">
-            Gridea Pro 完全上手指南 —— 从写作到发布，一篇搞定
-        </h2>
-        <div class="time">2026-05-09</div>
-    </a>
-    
-    <a href="/post/why-we-write/" class="post">
-        <h2 class="post-title">
-            都 2026 年了，我们为什么还要写博客
-        </h2>
-        <div class="time">2026-05-09</div>
-    </a>
-    
-    <a href="/post/indie-blog-is-not-dead/" class="post">
-        <h2 class="post-title">
-            独立博客没有死，正在死的是平庸的博客
-        </h2>
-        <div class="time">2026-05-09</div>
-    </a>
-    
-    <a href="/post/why-i-revived-gridea/" class="post">
-        <h2 class="post-title">
-            我为什么复活了 Gridea —— 每个想写点什么的人，都值得一个更简单的开始
-        </h2>
-        <div class="time">2026-05-09</div>
-    </a>
-    
-    
-</div>
+  
+  
 
-
-            
-<div class="pagination-container">
-    
-    
-</div>
-
-
-            
-<div class="site-footer">
-    Powered by Gridea Pro
-    <a class="rss" href="/atom.xml" target="_blank">
-        <i class="ri-rss-line"></i> RSS
-    </a>
-</div>
-
-        </div>
-    </div>
-<script>console.log("\n%c ✦ Gridea Pro v1.3.0-beta.2 %c · Theme: inotes v1.0.0 · https://gridea.pro %c\n","color:#fadfa3;background:#111111;padding:9px 14px;border-radius:4px 0 0 4px;font-weight:500;font-size:12px","color:#e05c00;background:#fff3ec;padding:9px 14px;border-radius:0 4px 4px 0;font-size:11px","")</script>
+  
+  
+<script>console.log("\n%c ✦ Gridea Pro v1.3.0-beta.2 %c · Theme: letters-theme v1.0.0 · https://gridea.pro %c\n","color:#fadfa3;background:#111111;padding:9px 14px;border-radius:4px 0 0 4px;font-weight:500;font-size:12px","color:#e05c00;background:#fff3ec;padding:9px 14px;border-radius:0 4px 4px 0;font-size:11px","")</script>
 </body>
 
 </html>

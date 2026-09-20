@@ -1,23 +1,32 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
 
 <head>
-    
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="generator" content="Gridea Pro 1.3.0-beta.2">
-<title>关于 | Gridea Pro</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1789948682">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="关于 | Gridea Pro - Atom Feed" href="/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Gridea Pro 1.3.0-beta.2">
+  <title>About | Gridea Pro</title>
 
+  
 
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
 
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  
+  <link rel="stylesheet" href="/styles/main.css">
+
+  
+  <link rel="alternate" type="application/rss+xml" title="Gridea Pro" href="/feed.xml">
+
+  
+  
+
+  
+  
 <meta name="description" content="关于我 嗨，我是 __ __ ，一个 __ __ 的人。 坐标深圳，做产品经理第五年。白天画原型，晚上写点乱七八糟的东西。">
 <link rel="canonical" href="https://yunwuee.github.io/post/about/">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"关于","url":"https://yunwuee.github.io/post/about/","description":"关于我 嗨，我是 __ __ ，一个 __ __ 的人。 坐标深圳，做产品经理第五年。白天画原型，晚上写点乱七八糟的东西。","datePublished":"2026-05-09T12:34:45+08:00","dateModified":"2026-05-09T12:39:45+08:00","author":{"@type":"Person","name":"Gridea Pro"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/images/avatar.png"},"name":"Gridea Pro"}}</script>
@@ -36,95 +45,98 @@
 </head>
 
 <body>
-    <div class="main">
-        <div class="main-content">
-            
-<div class="site-header">
-    <a href="/">
-        <img class="avatar" src="/images/avatar.png?v=1789948682" alt="">
+  <header class="site-header">
+  <div class="container">
+    <a href="https://yunwuee.github.io" class="site-logo">
+      
+      <img src="/images/avatar.png" alt="Gridea Pro" class="site-avatar">
+      
+      <span class="site-name">Gridea Pro</span>
     </a>
-    <h1 class="site-title">
-        Gridea Pro
-    </h1>
-    <p class="site-description">
-        Welcome to Gridea Pro
-    </p>
-    <div class="menu-container">
-        
-        
-        <a href="/" class="menu">
-            首页
-        </a>
-        
-        
-        
-        <a href="/post" class="menu">
-            博客
-        </a>
-        
-        
-        
-        <a href="/memos" class="menu">
-            闪念
-        </a>
-        
-        
-        
-        <a href="/archives" class="menu">
-            归档
-        </a>
-        
-        
-        
-        <a href="/tags" class="menu">
-            标签
-        </a>
-        
-        
-        
-        <a href="/links" class="menu">
-            友链
-        </a>
-        
-        
-        
-        <a href="/post/about" class="menu">
-            关于
-        </a>
-        
-        
-    </div>
-    <div class="social-container">
-        
-        
-        
-        
-        
-    </div>
-</div>
 
-            <div class="post-detail">
-                <article class="post">
-                    <h2 class="post-title">
-                        关于
-                    </h2>
-                    <div class="post-info">
-                        <span>
-                            2026-05-09
-                        </span>
-                        <span>
-                            1 分钟阅读
-                        </span>
-                        
-                    </div>
-                    
-                    <div class="post-content-wrapper">
-                        <div class="post-content" v-pre>
-                            <!-- 这是一个关于页面的模板，你可以根据自己的风格随意修改。开始写你自己的故事吧。 -->
-<h3 id="heading">关于我</h3>
-<p>嗨，我是 __ __ ，一个 __ __ 的人。</p>
-<p>坐标深圳，做产品经理第五年。白天画原型，晚上写点乱七八糟的东西。</p>
-<!-- 用你自己的方式介绍自己。可以是一句话，也可以是一段故事。
+    <nav class="nav-links">
+      
+      
+      <a href="/" >首页</a>
+      
+      <a href="/post" >博客</a>
+      
+      <a href="/memos" >闪念</a>
+      
+      <a href="/archives" >归档</a>
+      
+      <a href="/tags" >标签</a>
+      
+      <a href="/links" >友链</a>
+      
+      <a href="/post/about" >关于</a>
+      
+
+      
+      
+
+      
+
+      
+      
+    </nav>
+
+    
+    <button class="hamburger" id="hamburgerBtn" onclick="toggleMobileMenu()" aria-label="菜单">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+
+  
+  <div class="mobile-nav" id="mobileNav">
+    
+    <a href="/">首页</a>
+    
+    <a href="/post">博客</a>
+    
+    <a href="/memos">闪念</a>
+    
+    <a href="/archives">归档</a>
+    
+    <a href="/tags">标签</a>
+    
+    <a href="/links">友链</a>
+    
+    <a href="/post/about">关于</a>
+    
+    
+    
+    
+  </div>
+</header>
+
+<script>
+  function toggleMobileMenu() {
+    var menu = document.getElementById('mobileNav');
+    var btn = document.getElementById('hamburgerBtn');
+    menu.classList.toggle('open');
+    btn.classList.toggle('active');
+  }
+</script>
+
+  <main class="site-main">
+    
+<section class="about-section">
+  <div class="about-header">
+    
+    <img class="about-avatar" src="/images/avatar.png" alt="Gridea Pro">
+    
+    <h1 class="about-name">Gridea Pro</h1>
+  </div>
+
+  <div class="about-content post-content">
+    &lt;!-- 这是一个关于页面的模板，你可以根据自己的风格随意修改。开始写你自己的故事吧。 --&gt;
+&lt;h3 id=&quot;heading&quot;&gt;关于我&lt;/h3&gt;
+&lt;p&gt;嗨，我是 __ __ ，一个 __ __ 的人。&lt;/p&gt;
+&lt;p&gt;坐标深圳，做产品经理第五年。白天画原型，晚上写点乱七八糟的东西。&lt;/p&gt;
+&lt;!-- 用你自己的方式介绍自己。可以是一句话，也可以是一段故事。
 比如：
 
 「一个写了八年代码的后端工程师，最近开始对设计产生了兴趣。」
@@ -133,94 +145,55 @@
 
 「自由职业者，养了两只猫，正在学习用文字把日子过得更清楚一些。」
 
-不需要很正式，用你平时说话的语气就好。 -->
-<h3 id="heading-1">关于我的博客</h3>
-<p>我发现自己想的很多事情，不写下来就会忘。写博客不是为了给别人看，是怕将来的自己想不起来现在的自己在想什么。</p>
-<!-- 这部分往往是关于页面里最打动人的部分。也可以换成你自己的版本，比如：
+不需要很正式，用你平时说话的语气就好。 --&gt;
+&lt;h3 id=&quot;heading-1&quot;&gt;关于我的博客&lt;/h3&gt;
+&lt;p&gt;我发现自己想的很多事情，不写下来就会忘。写博客不是为了给别人看，是怕将来的自己想不起来现在的自己在想什么。&lt;/p&gt;
+&lt;!-- 这部分往往是关于页面里最打动人的部分。也可以换成你自己的版本，比如：
 
-「工作中踩过太多坑了，每次都想着"下次一定记下来"，然后下次又忘了。这个博客就是那个"下次"。」
+「工作中踩过太多坑了，每次都想着&quot;下次一定记下来&quot;，然后下次又忘了。这个博客就是那个&quot;下次&quot;。」
 
-「没什么特别的原因，就是想在互联网上有一个属于自己的小角落。」 -->
-<h3 id="heading-2">你能在这里看到什么</h3>
-<ul>
-<li>技术笔记和踩坑记录</li>
-<li>偶尔写点产品思考和读书笔记</li>
-<li>一些不知道该归到哪一类的碎碎念</li>
-</ul>
-<!-- 改成你自己打算写的方向就好 -->
-<h3 id="heading-3">找到我</h3>
-<ul>
-<li>GitHub: <a href="https://github.com/your-username">your-username</a></li>
-<li>Email: <a href="mailto:your@email.com">your@email.com</a></li>
-</ul>
-<!-- 换成你自己的链接，也可以加上 Twitter、掘金、知乎、微信公众号等 -->
-<hr />
-<p>本站使用 <a href="https://www.gridea.pro/">Gridea Pro</a> 搭建。</p>
+「没什么特别的原因，就是想在互联网上有一个属于自己的小角落。」 --&gt;
+&lt;h3 id=&quot;heading-2&quot;&gt;你能在这里看到什么&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;技术笔记和踩坑记录&lt;/li&gt;
+&lt;li&gt;偶尔写点产品思考和读书笔记&lt;/li&gt;
+&lt;li&gt;一些不知道该归到哪一类的碎碎念&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- 改成你自己打算写的方向就好 --&gt;
+&lt;h3 id=&quot;heading-3&quot;&gt;找到我&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href=&quot;https://github.com/your-username&quot;&gt;your-username&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Email: &lt;a href=&quot;mailto:your@email.com&quot;&gt;your@email.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- 换成你自己的链接，也可以加上 Twitter、掘金、知乎、微信公众号等 --&gt;
+&lt;hr /&gt;
+&lt;p&gt;本站使用 &lt;a href=&quot;https://www.gridea.pro/&quot;&gt;Gridea Pro&lt;/a&gt; 搭建。&lt;/p&gt;
 
-                        </div>
-                        <div class="toc-container">
-                            
-                        </div>
-                    </div>
-                </article>
-            </div>
+  </div>
+</section>
 
-            
+  </main>
 
-            
-
-            
-<div class="site-footer">
-    Powered by Gridea Pro
-    <a class="rss" href="/atom.xml" target="_blank">
-        <i class="ri-rss-line"></i> RSS
-    </a>
-</div>
-
-        </div>
+  <footer class="site-footer">
+  <div class="container">
+    <div class="footer-copyright">
+      &copy; 2026 Gridea Pro. All rights reserved.
     </div>
+    <div class="footer-powered">
+      Powered by <a href="https://gridea.pro" target="_blank" rel="noopener">Gridea Pro</a>
+    </div>
+  </div>
+</footer>
 
-    <script>
-        hljs.initHighlightingOnLoad()
+  
+  
 
-        let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+  
+  
 
-        
-        
-        
-        
-        
-        
-        
-        
-
-        window.addEventListener("scroll", event => {
-            let fromTop = window.scrollY;
-
-            mainNavLinks.forEach((link, index) => {
-                let section = document.getElementById(decodeURI(link.hash).substring(1));
-                let nextSection = null
-                if (mainNavLinks[index + 1]) {
-                    nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-                }
-                if (section.offsetTop <= fromTop) {
-                    if (nextSection) {
-                        if (nextSection.offsetTop > fromTop) {
-                            link.classList.add("current");
-                        } else {
-                            link.classList.remove("current");
-                        }
-                    } else {
-                        link.classList.add("current");
-                    }
-                } else {
-                    link.classList.remove("current");
-                }
-            });
-        });
-
-    </script>
-<script>console.log("\n%c ✦ Gridea Pro v1.3.0-beta.2 %c · Theme: inotes v1.0.0 · https://gridea.pro %c\n","color:#fadfa3;background:#111111;padding:9px 14px;border-radius:4px 0 0 4px;font-weight:500;font-size:12px","color:#e05c00;background:#fff3ec;padding:9px 14px;border-radius:0 4px 4px 0;font-size:11px","")</script>
+  
+  
+<script>console.log("\n%c ✦ Gridea Pro v1.3.0-beta.2 %c · Theme: letters-theme v1.0.0 · https://gridea.pro %c\n","color:#fadfa3;background:#111111;padding:9px 14px;border-radius:4px 0 0 4px;font-weight:500;font-size:12px","color:#e05c00;background:#fff3ec;padding:9px 14px;border-radius:0 4px 4px 0;font-size:11px","")</script>
 </body>
 
 </html>
